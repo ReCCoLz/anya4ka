@@ -7,7 +7,7 @@ using System;
 using Microsoft.Data.Sqlite;
 using Telegram.Bot.Types.ReplyMarkups;
 
-TelegramBotClient botClient = new("5153544287:AAEKYEMj9Z_5PBpW1yTnjkJ9eFM5O50evRc");
+TelegramBotClient botClient = new("{token}");
         
 using CancellationTokenSource cts = new ();
 
